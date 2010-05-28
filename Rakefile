@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "glog"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Glog gives you a pretty git log}
+    gem.description = %Q{With colours!}
     gem.email = "dave@snappyco.de"
     gem.homepage = "http://github.com/snappycode/glog"
     gem.authors = ["Dave Newman"]
