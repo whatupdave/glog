@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "bin/glog",
+     "glog.gemspec",
      "lib/glog.rb",
      "test/helper.rb",
      "test/test_glog.rb"

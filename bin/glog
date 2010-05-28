@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 require 'rubygems'
-require 'glog'
-Glog.new(ARGV).write_log
+begin
+  require 'glog'
+rescue LoadError
+  require 'lib/glog'
+end
+Glog.new(ARGV).log.each { |line| puts line  }

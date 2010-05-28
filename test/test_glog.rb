@@ -1,7 +1,7 @@
 require 'helper'
 
 class TestGlog < Test::Unit::TestCase
-  should "show something..." do
-    Glog.new.write_log
+  should "have initial commit" do
+    assert_equal 'Initial Commit', Glog.new.log.last
   end
 end
