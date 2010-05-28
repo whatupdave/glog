@@ -1,6 +1,6 @@
 = glog
 
-Description goes here.
+Pretty print your git commit log.
 
 == Note on Patches/Pull Requests
  
